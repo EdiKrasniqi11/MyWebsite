@@ -29,7 +29,7 @@ const Home = () =>{
             <div id="homeDiv">
                 <div id="contactDiv">
                     <h2>Contact Me!</h2>
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={sendEmail} autocomplete="off">
                       <input type="text" name="user_name" className="textInput" placeholder="Name"/><br/>
                       <input type="email" name="user_email" className="textInput" placeholder="Email"/><br/>
                       <textarea name="message" placeholder="Message"/><br/>

@@ -10,6 +10,7 @@
 }
 a{
     text-decoration:none;
+    color:inherit;
 }
 #homeFotoDiv{
     height:100vh;

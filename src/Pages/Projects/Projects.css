@@ -12,8 +12,53 @@
 #projectsFotoDiv a:hover{
     animation:0.5s ease hover-switch forwards;
 }
-@keyframes hover-switch {
-    100%{
-        color:rgb(0, 162, 162);
-    }
+#projectsDiv{
+    height:50vh;
+    width:94%;
+    background-color:rgb(0, 22, 45);
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-left:3%;
+    padding-right:3%;
+}
+.container{
+    width:20%;
+    aspect-ratio: 1.2;
+    border-radius:7%;
+    position:relative;
+    overflow:hidden;
+    box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px, rgb(0 0 0 / 6%) 0px 3px 3px -2px, rgb(0 0 0 / 10%) 0px 1px 8px 0px;
+}
+.container img{
+    display:block;
+    height:100%;
+    width:100%;
+}
+.overlay{
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    background-color:rgba(0, 44, 91, 0.689);
+    overflow:hidden;
+    width:96%;
+    height:0;
+    transition:1s ease;
+    padding:2% 2% 2% 2%;
+}
+.container:hover .overlay{
+    top:70%;
+    height:26%;
+}
+.container:hover{
+    box-shadow: rgb(0 0 0 / 7%) 0px 7px 8px 0px, rgb(0 0 0 / 6%) 0px 5px 12px 2px, rgb(0 0 0 / 10%) 0px 5px 12px 0px;
+}
+.t{
+    font-weight:900;
+    overflow:hidden;
+}
+.d{
+    font-weight:200;
+    overflow:hidden;
 }

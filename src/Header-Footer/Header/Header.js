@@ -1,5 +1,6 @@
 import './Header.css'
 import {useState} from 'react'
+import {NavLink} from 'react-router-dom'
 
 
 const Header = () =>{
@@ -18,11 +19,11 @@ const Header = () =>{
     return (
         <header className={navBar?"headerDiv active":"headerDiv"}>
             <ul>
-                <a href="/"><li>Home</li></a>
-                <a href="/about-me"><li>About me</li></a>
-                <a href="/my-projects"><li>Projects</li></a>
-                <a href="/curriculum-vitae"><li>Curriculum Vitae</li></a>
-                <a href="/this-website"><li>This Website</li></a>
+                <NavLink to="/"><li>Home</li></NavLink>
+                <NavLink to="/about-me"><li>About me</li></NavLink>
+                <NavLink to="/my-projects"><li>Projects</li></NavLink>
+                <NavLink to="/curriculum-vitae"><li>Curriculum Vitae</li></NavLink>
+                <NavLink to="/this-website"><li>This Website</li></NavLink>
             </ul>
         </header>
     )
