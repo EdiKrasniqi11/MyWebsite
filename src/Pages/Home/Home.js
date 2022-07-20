@@ -23,7 +23,7 @@ const Home = () =>{
         <>
             <div id="homeFotoDiv">
                 <img src={Edi} alt="Profile Pic"/>
-                <h2>Hello, I'm Edi Krasniqi</h2>
+                <h2>Test, I'm Edi Krasniqi</h2>
                 <h3>And this is my Website</h3>
             </div>
             <div id="homeDiv">
