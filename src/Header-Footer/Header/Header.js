@@ -1,13 +1,12 @@
 import './Header.css'
 import {useState} from 'react'
-import {Link} from 'react-router-dom'
 
 
 const Header = () =>{
     const [navBar, setNavBar] = useState(false);
 
     const changeBackground = () =>{
-        if(window.scrollY != 0){
+        if(window.scrollY !== 0){
             setNavBar(true)
         }else{
             setNavBar(false)

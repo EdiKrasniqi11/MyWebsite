@@ -1,11 +1,11 @@
-import stylist from './Footer.css'
+import './Footer.css'
 import {useState} from 'react'
 
 const Footer = () =>{
     const [navBar, setNavBar] = useState(false);
 
     const changeBackground = () =>{
-        if(window.scrollY != 0){
+        if(window.scrollY !== 0){
             setNavBar(true)
         }else{
             setNavBar(false)

@@ -34,7 +34,7 @@ const AboutMe = () =>{
                                 <p>Edi Krasniqi<br/>
                                 19y/o<br/>
                                 07/01/2003<br/>
-                                Albanian/Shqipëtar<img src={Kosova} /><br/>
+                                Albanian/Shqipëtar<img src={Kosova} alt=""/><br/>
                                 University of Business and Technology<br/>
                                 Computer Science and Engineering</p>
                             </div>
