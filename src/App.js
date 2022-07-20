@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <Header />
-      {URLcomponents[3]===""?<Home />:
-      URLcomponents[3]==="about-me"?<About />:
-      URLcomponents[3]==="my-projects"?<Projects />:null}
+      {URLcomponents[-1]===""?<Home />:
+      URLcomponents[-1]==="about-me"?<About />:
+      URLcomponents[-1]==="my-projects"?<Projects />:null}
       <Footer />
     </>
   );
