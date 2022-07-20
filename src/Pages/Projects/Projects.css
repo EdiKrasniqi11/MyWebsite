@@ -1,0 +1,19 @@
+#projectsFotoDiv{
+    height:100vh;
+    width:100%;
+    background-image: url("../../Images/projects-display.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+#projectsFotoDiv a:hover{
+    animation:0.5s ease hover-switch forwards;
+}
+@keyframes hover-switch {
+    100%{
+        color:rgb(0, 162, 162);
+    }
+}

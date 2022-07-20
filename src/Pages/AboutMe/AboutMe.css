@@ -1,0 +1,132 @@
+#aboutFotoDiv{
+    height:100vh;
+    width:100%;
+    background-image: url("../../Images/about-display.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+#aboutFotoDiv a:hover{
+    animation:0.5s ease hover-switch forwards;
+}
+@keyframes hover-switch {
+    100%{
+        color:rgb(0, 162, 162);
+    }
+}
+#aboutDiv{
+    height:auto;
+    width:94%;
+    background-color:rgb(0, 22, 45);
+    display:flex;
+    padding-left:3%;
+    padding-right:3%;
+}
+#openingParagraph{
+    min-width:100%;
+    background-color: rgb(0, 22, 45);
+}
+#openingParagraph h3{
+    width:100%;
+    font-weight:400;
+    padding-bottom:1%;
+}
+#openingParagraph p{
+    padding-top:1%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    border-top:1px solid rgba(255, 255, 255, 0.167);
+    border-top-style: dashed;
+    font-weight:100;
+    user-select: text;
+}
+.side{
+    margin-top:2%;
+    width:45%;
+    padding-bottom:5vh;
+}
+#personalInfo{
+    min-height:100%;
+    min-width:100%;
+    max-width:fit-content;
+    overflow:hidden;
+    white-space:nowrap;
+}
+#personalInfo h3{
+    width:100%;
+    font-weight:400;
+    padding-bottom:2.5%;
+}
+#detailDiv{
+    padding-bottom:2.5%;
+    padding-top:2.5%;
+    padding-left:5%;
+    text-align:left;
+    border-top:1px solid rgba(255, 255, 255, 0.167);
+    border-top-style: dashed;
+    display: flex;
+}
+#detailDiv p{
+    font-weight:100;
+    user-select: text;
+}
+#personalTitles{
+    text-align:right;
+}
+#personalDetails{
+    margin-left:2%;
+}
+#personalDetails img{
+    height:15px;
+    width:24px;
+}
+.r{
+    margin-left:10%;
+}
+#skillsDiv{
+    min-height:100%;
+    min-width:100%;
+    max-width:fit-content;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    background:rgba(0, 12, 24, 0.53);
+    border-radius:20px
+}
+#skillsDiv h3{
+    width:100%;
+    font-weight:400;
+    padding-bottom:2.5%;
+}
+#skills{
+    padding-bottom:2.5%;
+    padding-top:2.5%;
+    padding-left:5%;
+    text-align:left;
+    border-top:1px solid rgba(255, 255, 255, 0.167);
+    border-top-style: dashed;
+    display: flex;
+}
+#skills p{
+    font-weight:100;
+    user-select: text;
+}
+.column{
+    margin-right:5%;
+}
+.b{
+    margin-right:0;
+    padding-right:2.5%;
+    border-right:1px solid rgba(255, 255, 255, 0.167);
+}
+.c{
+    padding-left:2.5%;
+}
