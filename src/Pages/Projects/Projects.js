@@ -7,8 +7,8 @@ const Projects = () =>{
     return (
         <>
             <div id="projectsFotoDiv">
-                <h2><a href="../">Home</a> {'>'} My Projects</h2>
-                <h3>Take a look at my prior work</h3>
+                <h2 className="web-view projects"><a href="../">Home</a> {'>'} My Projects</h2>
+                <h3 className="web-view projects">Take a look at my prior work</h3>
             </div>
             <div className="openingParagraph">
                 <h3>My Experience in Programming?</h3>

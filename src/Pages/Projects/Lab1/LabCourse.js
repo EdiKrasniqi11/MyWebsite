@@ -4,7 +4,13 @@ const LabCourse = () =>{
     return (
         <>
             <div id="projectsFotoDiv">
-                <h2><a href="../">Home</a> {'>'} <a href="../my-projects">My Projects</a> {'>'} Prishtina University</h2>
+                <h2 className="web-view lab"><a href="../">Home</a> {'>'} <a href="../my-projects">My Projects</a> {'>'} Prishtina University</h2>
+
+                <h2 className="mobile-view lab"><a href="../">Home</a></h2>
+                <h2 className="mobile-view lab">v</h2>
+                <h2 className="mobile-view lab"><a href="../my-projects">My Projects</a></h2>
+                <h2 className="mobile-view lab">v</h2>
+                <h2 className="mobile-view lab">Prishtina University</h2>
                 <h3>My biggest Project to Date</h3>
             </div>
             <div className="openingParagraph">

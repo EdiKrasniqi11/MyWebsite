@@ -2,3 +2,14 @@
     background-color:rgb(0, 22, 45);
     height:50vh;
 }
+.mobile-view.lab{
+    display:none;
+}
+@media screen and (max-width:481px){
+    .mobile-view.lab{
+        display:block;
+    }
+    .web-view.lab{
+        display:none;
+    }
+}
