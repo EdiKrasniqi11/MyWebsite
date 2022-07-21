@@ -1,5 +1,6 @@
 import './Projects.css'
 import Container from '../../components/ProjectContainer'
+import Students from '../../Images/Students.jpg'
 import landscape from '../../Images/landscape.jpg'
 
 const Projects = () =>{
@@ -9,7 +10,7 @@ const Projects = () =>{
                 <h2><a href="../">Home</a> {'>'} My Projects</h2>
                 <h3>Take a look at my prior work</h3>
             </div>
-            <div class="openingParagraph">
+            <div className="openingParagraph">
                 <h3>My Experience in Programming?</h3>
                 <p>
                     Although I am somewhat new to Programming and Software Engineering, I'm very familiar with working in Projects; be that Programming, 
@@ -20,7 +21,10 @@ const Projects = () =>{
                 </p>
             </div>
             <div id="projectsDiv">
-                <Container image={landscape} title="Hello World" description="Description"/>
+            <Container path="/lab-course-1" image={Students} title="Prishtina University" description="University System Managment"/>
+            <Container path="/lab-course-1" image={landscape} title="Hello World" description="Description"/>
+            <Container path="/lab-course-1" image={landscape} title="Hello World" description="Description"/>
+            <Container path="/lab-course-1" image={landscape} title="Hello World" description="Description"/>
             </div>
         </>
     )

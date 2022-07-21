@@ -8,13 +8,13 @@ const AboutMe = () =>{
                 <h2><a href="../">Home</a> {'>'} About Me</h2>
                 <h3>Get to know me better as a Programmer</h3>
             </div>
-            <div class="openingParagraph">
+            <div className="openingParagraph">
                 <h3>Who Am I?</h3>
                 <p>
                     I am Edi Krasniqi, Student at UBT(University of Bussiness and Technology) in Prishtina, 
                     Kosovo entering into my 3rd year of studies majoring in Computer Science and Engineering. I have a lot of hobbies 
                     the most important of which is Programming and Software Development. I've been coding since the age of 17 during my 
-                    1st year of studies starting with java and and ever since I've gained abilities in many other programming languages and frameworks.
+                    1st year of studies starting with java and ever since I've gained abilities in many other programming languages and frameworks.
                 </p>
             </div>
             <div id="aboutDiv">

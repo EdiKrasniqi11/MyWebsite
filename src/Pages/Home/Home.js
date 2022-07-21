@@ -23,13 +23,13 @@ const Home = () =>{
         <>
             <div id="homeFotoDiv">
                 <img src={Edi} alt="Profile Pic"/>
-                <h2>Test, I'm Edi Krasniqi</h2>
+                <h2>Hello, I'm Edi Krasniqi</h2>
                 <h3>And this is my Website</h3>
             </div>
             <div id="homeDiv">
                 <div id="contactDiv">
                     <h2>Contact Me!</h2>
-                    <form ref={form} onSubmit={sendEmail} autocomplete="off">
+                    <form ref={form} onSubmit={sendEmail} autoComplete="off">
                       <input type="text" name="user_name" className="textInput" placeholder="Name"/><br/>
                       <input type="email" name="user_email" className="textInput" placeholder="Email"/><br/>
                       <textarea name="message" placeholder="Message"/><br/>
