@@ -4,6 +4,7 @@
     bottom:0;
     height:5vh;
     width:100%;
+    z-index: 999;
 }
 .footerDiv ul{
     height:100%;

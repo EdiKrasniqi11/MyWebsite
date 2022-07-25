@@ -21,10 +21,10 @@ const Projects = () =>{
                 </p>
             </div>
             <div id="projectsDiv">
-            <Container path="/lab-course-1" image={Students} title="Prishtina University" description="University System Managment"/>
-            <Container path="/lab-course-1" image={landscape} title="Hello World" description="Description"/>
-            <Container path="/lab-course-1" image={landscape} title="Hello World" description="Description"/>
-            <Container path="/lab-course-1" image={landscape} title="Hello World" description="Description"/>
+            <Container path="/my-projects/lab-course-1" image={Students} title="Prishtina University" description="University System Managment"/>
+            <Container path="/my-projects/lab-course-1" image={landscape} title="Hello World" description="Description"/>
+            <Container path="/my-projects/lab-course-1" image={landscape} title="Hello World" description="Description"/>
+            <Container path="/my-projects/lab-course-1" image={landscape} title="Hello World" description="Description"/>
             </div>
         </>
     )
