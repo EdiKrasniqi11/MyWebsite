@@ -48,14 +48,18 @@
 .slideCounter{
     background:rgba(255, 255, 255, 0.505);
     position:absolute;
-    width:7%;
-    top:80%;
-    left:45.5%;
+    width:fit-content;
+    bottom:50px;
+    left:50%;
     padding-inline:1%;
     padding-block:0.2%;
     border-radius:25vw;
     display:flex;
-    justify-content:space-around;
+    gap:10px;
+    transform:translateX(-50%);
+}
+.slideCounter:hover{
+    display:none;
 }
 .slideCircle{
     height:10px;
@@ -89,5 +93,8 @@
     }
     .slideClick:hover{
         background:transparent;
-    }    
+    }
+    .slideCounter{
+        display:none;
+    }
 }
