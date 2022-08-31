@@ -30,7 +30,6 @@ const Header = () =>{
                 <NavLink onClick={() => setToggle(false)} className="link" to="/about-me"><li>About me</li></NavLink>
                 <NavLink onClick={() => setToggle(false)} className="link" to="/my-projects"><li>Projects</li></NavLink>
                 <NavLink onClick={() => setToggle(false)} className="link" to="/curriculum-vitae"><li>Curriculum Vitae</li></NavLink>
-                <NavLink onClick={() => setToggle(false)} className="link" to="/this-website"><li>This Website</li></NavLink>
             </ul>
         </header>
     )

@@ -20,8 +20,15 @@
     display:flex;
     flex-wrap:wrap;
     align-items:center;
-    justify-content:space-between;
     padding:0% 0% 7vh 3% !important;
+}
+#projectsFotoDiv h2{
+    margin-bottom:2000px;
+    animation:slideTop 2s 0.25s forwards;
+}
+#projectsFotoDiv h3{
+    color:transparent;
+    animation:descriptionShow 1s 2.25s forwards;
 }
 .container{
     width: 280px;
@@ -65,4 +72,12 @@
 .d{
     font-weight:200;
     overflow:hidden;
+}
+@media screen and (max-width:611px){
+    #projectsDiv{
+        justify-content: center;
+    }
+    .container{
+        width:70%;
+    }
 }

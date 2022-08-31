@@ -1,6 +1,7 @@
 import './Projects.css'
 import Container from '../../components/ProjectContainer'
 import Students from '../../Images/Students.jpg'
+import ECommerce from '../../Images/eCommerce.jpg'
 import landscape from '../../Images/landscape.jpg'
 
 const Projects = () =>{
@@ -21,10 +22,8 @@ const Projects = () =>{
                 </p>
             </div>
             <div id="projectsDiv">
+            <Container path="/my-projects/tech-commerce" image={ECommerce} title="TechCom" description="Technology Based E-Commerce"/>
             <Container path="/my-projects/lab-course-1" image={Students} title="Prishtina University" description="University System Managment"/>
-            <Container path="/my-projects/lab-course-1" image={landscape} title="Hello World" description="Description"/>
-            <Container path="/my-projects/lab-course-1" image={landscape} title="Hello World" description="Description"/>
-            <Container path="/my-projects/lab-course-1" image={landscape} title="Hello World" description="Description"/>
             </div>
         </>
     )

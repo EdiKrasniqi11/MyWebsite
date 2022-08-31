@@ -31,10 +31,39 @@ h3{
     width:180px;
     border:3px solid white;
     border-radius:50%;
+    box-shadow: 0 0 0.5em white, inset 0 0 0.25em white;
+    transition: box-shadow 500ms ease-in;
+    animation:waveFlow 2s infinite;
+}
+@keyframes waveFlow{
+    50%{
+        box-shadow: 0 0 0.80em white, inset 0 0 0.55em white;
+    }
+    109%{
+        box-shadow: 0 0 0.5em white, inset 0 0 0.25em white;
+    }
+}
+#homeFotoDiv img:hover, #homeFotoDiv:focus{
+    box-shadow: 0 0 1em white, inset 0 0 0.75em white;
+    animation:none;
+    transition: box-shadow 400ms ease-in;
 }
 #homeDiv{
     height:80vh;
     display:flex;
+}
+#homeFotoDiv h2{
+    color:transparent;
+    animation:descriptionShow 1s 1s forwards;
+}
+#homeFotoDiv h3{
+    color:transparent;
+    animation:descriptionShow 1s 2s forwards;
+}
+@keyframes descriptionShow{
+    to{
+        color:rgb(219, 239, 255);
+    }
 }
 #contactDiv{
     width:100%;
@@ -77,6 +106,8 @@ h3{
 }
 .textInput:focus, #contactDiv textarea:focus{
     outline:none;
+    box-shadow:0 0 0.25em white, inset 0 0 0.175em white;
+    transition:box-shadow 300ms ease-in;
 }
 .submitButton{
     width:61.3%;
@@ -87,6 +118,8 @@ h3{
     border:1px solid rgb(0, 136, 255);
     cursor:pointer;
 }
-.submitButton:hover{
+.submitButton:hover,.submitButton:focus{
     background-color:rgba(0, 121, 227, 0.445);
+    box-shadow: 0 0 0.5em rgb(0, 136, 255), inset 0 0 0.25em rgb(0, 136, 255);
+    transition: 200ms ease-in;
 }

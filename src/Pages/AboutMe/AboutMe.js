@@ -45,21 +45,23 @@ const AboutMe = () =>{
                     <div id="skillsDiv">
                         <h3>Personal Skills and Attributes</h3>
                         <div id="skills">
-                            <div className="column a">
-                                <p>
-                                    JavaScript<br/>
-                                    ReactJS<br />
-                                    Java<br />
-                                    Python<br />
-                                    PHP<br />
-                                    SQL<br />
-                                </p>
-                            </div>
-                            <div className="column b">
-                                <p>
-                                    C#<br />
-                                    .NET Core
-                                </p>
+                            <div className="languages">
+                                <div className="column a">
+                                    <p>
+                                        JavaScript<br/>
+                                        ReactJS<br />
+                                        Java<br />
+                                        Python<br />
+                                        PHP<br />
+                                        SQL<br />
+                                    </p>
+                                </div>
+                                <div className="column b">
+                                    <p>
+                                        C#<br />
+                                        .NET Core
+                                    </p>
+                                </div>
                             </div>
                             <div className="column c">
                                 <p>
@@ -75,7 +77,7 @@ const AboutMe = () =>{
                     </div>
                 </div>
             </div>
-        </>
+        </> 
     )
 }
 
