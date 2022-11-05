@@ -36,7 +36,7 @@ const TechCommerce = () =>{
     }
     return (
         <>
-            <div id="projectsFotoDiv">
+            <div className="projectsFotoDiv">
                 <h2 className="web-view lab"><a href="../">Home</a> {'>'} <a href="../my-projects">My Projects</a> {'>'} TechCom</h2>
 
                 <h2 className="mobile-view lab"><a href="../">Home</a></h2>

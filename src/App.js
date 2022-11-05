@@ -5,6 +5,7 @@ import About from './Pages/AboutMe/AboutMe'
 import Projects from './Pages/Projects/Projects'
 import LabCourse from './Pages/Projects/Lab1/LabCourse'
 import TechCommerce from './Pages/Projects/TechCommerce/TechCommerce'
+import AlgoSorter from './Pages/Projects/AlgoSorter/AlgoSorter'
 import CV from './Pages/CV/CV'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/my-projects" element={<Projects />}/>
         <Route path="/my-projects/lab-course-1" element={<LabCourse />}/>
         <Route path="/my-projects/tech-commerce" element={<TechCommerce />}/>
+        <Route path="/my-projects/algo-sorter" element={<AlgoSorter />}/>
         <Route path="/curriculum-Vitae" element={<CV />}/>z
       </Routes>
       <Footer />

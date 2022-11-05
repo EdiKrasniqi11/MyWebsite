@@ -2,12 +2,12 @@ import './Projects.css'
 import Container from '../../components/ProjectContainer'
 import Students from '../../Images/Students.jpg'
 import ECommerce from '../../Images/eCommerce.jpg'
-import landscape from '../../Images/landscape.jpg'
+import Algo from '../../Images/algo.png'
 
 const Projects = () =>{
     return (
         <>
-            <div id="projectsFotoDiv">
+            <div className="projectsFotoDiv">
                 <h2 className="web-view projects"><a href="../">Home</a> {'>'} My Projects</h2>
                 <h3 className="web-view projects">Take a look at my prior work</h3>
             </div>
@@ -24,6 +24,7 @@ const Projects = () =>{
             <div id="projectsDiv">
             <Container path="/my-projects/tech-commerce" image={ECommerce} title="TechCom" description="Technology Based E-Commerce"/>
             <Container path="/my-projects/lab-course-1" image={Students} title="Prishtina University" description="University System Managment"/>
+            <Container path="/my-projects/algo-sorter" image={Algo} title="Sorting Algorithm Visualizer" description="A Visualizing tool to better understand Algorithms"/>
             </div>
         </>
     )
