@@ -10,13 +10,14 @@ const Home = () =>{
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_4sbkfq7', 'template_piaibdu', form.current, 'mT76i8kn0jPak2Rst')
+    emailjs.sendForm('service_szb40ax', 'template_piaibdu', form.current, 'mT76i8kn0jPak2Rst')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
           alert("Thank You for Contacting me!")
       }, (error) => {
           console.log(error.text);
+          alert("Something went wrong. In case of emergency contact please email me at edikrasniqi1507@gmail.com. Thank you for your patience.")
       });
   };
     return (
