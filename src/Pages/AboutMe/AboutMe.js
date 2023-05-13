@@ -24,7 +24,6 @@ const AboutMe = () =>{
                         <div id="detailDiv">
                             <div id="personalTitles">
                                 <p>Full Name:<br/>
-                                Age:<br/>
                                 Birth Date:<br/>
                                 Nationality:<br/>
                                 University:<br/>
@@ -32,7 +31,6 @@ const AboutMe = () =>{
                             </div>
                             <div id="personalDetails">
                                 <p>Edi Krasniqi<br/>
-                                19y/o<br/>
                                 07/01/2003<br/>
                                 Albanian/Shqipëtar<img src={Kosova} alt=""/><br/>
                                 University of Business and Technology<br/>
@@ -59,7 +57,8 @@ const AboutMe = () =>{
                                 <div className="column b">
                                     <p>
                                         C#<br />
-                                        .NET Core
+                                        .NET Core<br/>
+                                        TypeScript
                                     </p>
                                 </div>
                             </div>

@@ -12,9 +12,10 @@ const CV = () => {
                 <div className="leftSide">
                     <p><b>Personal Information</b></p><br/>
                     <p>Name</p>
-                    <p>Address</p>
                     <p>E-mail</p><br/>
                     <p><b>Education and Training</b></p><br/>
+                    <p>Mar,2023 - Present</p><br/><br/>
+                    <p>Nov.2022 - Mar,2023</p><br/><br/>
                     <p>Nov,2020 - Present</p><br/><br/>
                     <p>Sep,2017 - Jun,2020</p><br/><br/>
                     <p>Feb,2022 - Jul,2022</p><br/><br/>
@@ -29,9 +30,12 @@ const CV = () => {
                 <div className="rightSide">
                     <br/><br/>
                     <p>Edi Krasniqi</p>
-                    <p>St. Hora e Arbresheve, No.62, Fushe Kosove, 12000, Kosovo</p>
                     <p>edikrasniqi1507@gmail.com</p>
                     <br/><br/><br/>
+                    <p>Data Analyst</p>
+                    <p>“Ipko Telecommunications”, Prishtina, Kosovo</p><br/>  
+                    <p>Business Intelligence Internship</p>
+                    <p>“Ipko Telecommunications”, Prishtina, Kosovo</p><br/>  
                     <p>University of Computer Science and Engineering</p>
                     <p>"University of Business and Technology", Prishtina, Kosovo</p><br/>
                     <p>High School</p>
@@ -44,10 +48,10 @@ const CV = () => {
                     <p>"Shkolla Digjitale", Prishtina, Kosovo</p><br/>
                     <p>Junior IT Computer Architecture, Network Security and Multimedia</p>
                     <p>"Shkolla Digjitale", Prishtina, Kosovo</p><br/><br/><br/>
-                    <p>Java</p>
+                    <p>ReactJS</p>
                     <p>C#</p>
                     <p>JavaScript</p>
-                    <p>ReactJS</p>
+                    <p>TypeScript</p>
                     <p>PHP</p>
                     <p>Python</p><br/><br/><br/><br/>
                     <p>Leadership Skills</p>
@@ -63,7 +67,7 @@ const CV = () => {
                 </div>
             </div>
             <div className="downloadCVDiv">
-                    <a href="cv.pdf" download><button className="downloadButton">Download CV</button></a>
+                    <a href="Edi Krasniqi CV.pdf" download><button className="downloadButton">Download CV</button></a>
             </div>
         </>
     )
